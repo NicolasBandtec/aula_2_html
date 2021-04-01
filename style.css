@@ -1,37 +1,176 @@
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-.header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.cabecalho {
+    background-color: #232323;  
     width: 100%;
-    height: 80px;
-    background-color: #1C1C1C;
-}
-.header h1{
-    float: left;
-}
-ul li{
-    float: right;
-    color: white;
-    display: inline;
-    margin-left: 20px;
-    margin-right: 25px;
+    height: 50px;
+  } 
 
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-ul li1{
-    float: right;
-    color: orangered;
-    display: inline;
-    margin-left: 25px;
-    
+
+ul {
+    list-style: none;
 }
-.header h1 b{
-    color: orangered;
-}
-.header h1{
+
+ul li {
     color: white;
-    margin-left: 25px;
+    display: inline;
+    }
+
+.cabecalho nav {
+        float: right;
+    }
+
+li {
+        margin: 0 20px;
+        font-size: large;
+    }
+
+span h2 {
+    color: white;
+    float: left;
+    font-size: 25px;
+    margin-top: 10px;
 }
+
+.caixa {
+    margin: 0 auto;  
+    max-width: 1300px; 
+}
+
+h2 {
+    margin: 0;
+    height: 0;
+}
+
+span b { 
+    color: rgb(238, 75, 0); 
+}
+
+#home {
+    color: rgb(238, 75, 0);
+}
+
+#quebra {
+    min-height: 3px;
+    background-color:rgb(238, 75, 0);
+}
+
+.meio {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 0;
+    background-image: url("team.png");
+    }
+    
+    .meio  .caixa {
+    color: white;
+    text-align: center;
+    }
+
+    .meio .caixa h1 {
+        font-size: 40px;
+        padding-top: 30px;
+        margin-top: 0px;
+    }
+
+    .baixo .caixa_b {
+        max-width: 90%;
+    }
+    
+    .baixo {
+    background-color: #232323 ;
+    min-height: 100px;
+    }
+    
+    .baixo h2 {
+        font-size: 30px;
+        padding: 25px;
+    }
+    
+    .baixo button {
+    background-color: rgb(238, 75, 0) ;
+    border: none;
+    color: white;
+    }
+
+    .email {
+        margin: 40px;
+        float: right;
+    }
+    
+    .dados {
+    background-color: white;
+    max-height: 400px;
+    }
+    
+    .conteudo {
+    width: 100%;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 60px;
+    }
+    
+    .box3 {
+    max-width: 200px;
+    float: right;
+    margin-right: 50px;
+    }
+        
+    .box2 {   
+    max-width: 200px;
+    float: left;
+    margin-left: 200px;    
+    }
+        
+    .box1 {    
+    max-width: 200px;
+    float: left;
+    margin-left: 50px;
+    }
+    
+    #img_1 {
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;  
+    }
+    
+    #img_2 {
+    width: 100px;  
+    margin-left: 50px;
+    margin-right: 50px;    
+    }
+    
+    
+    #img_3 {
+    width: 100px;  
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+    
+    .descricao {
+    text-align: center;
+    float: inline-end;
+    }
+    
+    .footer {
+    background-color:rgb(238, 75, 0);
+    height: 50px;
+    width:100%;
+    bottom:0;
+    margin-top: 280px;
+    }
+    
+    .footer_desc {
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    }
+    
+    #footer_texto {
+    color: white;
+    padding-top: 15px;
+    }
