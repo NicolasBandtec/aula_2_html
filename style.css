@@ -2,6 +2,7 @@
     background-color: #232323;  
     width: 100%;
     height: 50px;
+    border-bottom: 5px solid orangered;
   } 
 
   body {
@@ -50,6 +51,9 @@ span b {
 }
 
 #home {
+    color: rgb(238, 75, 0);
+}
+#login {
     color: rgb(238, 75, 0);
 }
 

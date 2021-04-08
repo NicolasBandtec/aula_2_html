@@ -1,0 +1,57 @@
+
+.cadastro {
+width: 1300px;
+margin: 0 auto;
+}
+
+.cadastro_texto {
+padding: 50px;
+}
+
+.conteudo_cadastro{
+width: 1300px;
+}
+
+#img_cadastro {
+width: 500px;
+margin: 30px 50px;
+float: right;
+}
+
+.inpt_cadastro{
+height: 30px;
+width: 400px;
+border-radius: 4px;
+margin-bottom: 25px;
+border: 1px solid rgb(179, 179, 179);
+}
+
+.btn_cadastro {
+margin: 20px 0px 50px 0px;
+border: 0px;
+padding: 10px 20px;
+border-radius: 5px;
+float: left;
+cursor: pointer;
+background-color: green;
+color: white;
+}
+
+.footer {
+bottom:0;
+width:100%;
+height: 50px;
+margin-top: 200px;
+background-color:rgb(238, 75, 0);
+}
+
+.conteudo_footer {
+text-align: center;
+padding-top: 5px;
+max-width: 50%;
+margin: 0 auto;
+}
+
+#texto_footer {
+color: white;
+}

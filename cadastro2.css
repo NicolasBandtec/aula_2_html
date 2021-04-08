@@ -1,0 +1,50 @@
+body {
+margin: 0;
+padding: 0;
+background-color:rgb(241, 241, 241);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {  
+height: 50px;
+width: 100%;
+border-bottom: 3px solid rgb(238, 75, 0); 
+background-color: #232323;
+} 
+
+.caixa {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.cabecalho h2 {
+color: white;
+float: left;
+margin-top: 10px;
+font-size: 25px;
+}
+
+.cabecalho b { 
+color: rgb(238, 75, 0); 
+}
+    
+.cabecalho nav {
+float: right;
+}
+
+.cabecalho ul {
+list-style: none;
+cursor: pointer;
+}
+
+.cabecalho li {
+margin: 0 20px;
+color: white;
+display: inline;
+font-size: large;
+}
+
+.destaque_laranja {
+color: rgb(238, 75, 0);
+text-decoration: none;
+}
